@@ -1,0 +1,20 @@
+:root{ --accent:#0f62fe; --muted:#666 }
+*{box-sizing:border-box}
+body{font-family:Inter, Arial, sans-serif;margin:0;padding:0;background:#f7f8fb;color:#111}
+.container{max-width:900px;margin:0 auto;padding:16px}
+.header{display:flex;justify-content:space-between;align-items:center;padding:12px 0}
+.card{background:white;border-radius:12px;padding:14px;box-shadow:0 6px 18px rgba(15,23,42,0.06);margin-bottom:12px}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{padding:6px 10px;border-radius:999px;border:1px solid #ddd;cursor:pointer}
+.chip.selected{background:var(--accent);color:white;border-color:var(--accent)}
+.btn{padding:8px 12px;border-radius:8px;border:none;background:var(--accent);color:white;cursor:pointer}
+.input{padding:10px;border-radius:8px;border:1px solid #ddd;width:100%}
+.timeline-item{border-left:2px solid #eee;padding-left:12px;margin-bottom:12px}
+.small{font-size:0.9rem;color:var(--muted)}
+.table{width:100%;border-collapse:collapse}
+.table th,.table td{padding:8px;border-bottom:1px solid #eee;text-align:left}
+@media(min-width:768px){.container{padding:24px}}
+
+
+/* Focus styles for accessibility */
+button:focus, .chip:focus, input:focus {outline:3px solid rgba(15,98,254,0.18);outline-offset:2px}

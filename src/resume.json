@@ -1,0 +1,32 @@
+{
+"name": "Aanchal Gupta",
+"title": "Frontend Developer (Intern)",
+"contact": {
+"email": "aanchal@example.com",
+"phone": "1234567890",
+"location": "Jaipur, India"
+},
+"skills": ["React", "JavaScript", "HTML", "CSS", "Tailwind", "Git"],
+"summary": "Passionate frontend developer building accessible and responsive UIs.",
+"experiences": [
+{
+"id": 1,
+"role": "Frontend Intern",
+"company": "Celebal Technologies",
+"from": "2024-06",
+"to": "2024-08",
+"bullets": ["Built components in React","Improved UI performance"]
+},
+{
+"id": 2,
+"role": "Web Developer Intern",
+"company": "DentalHiFi",
+"from": "2024-05",
+"to": "2024-06",
+"bullets": ["Built landing pages","Responsive fixes"]
+}
+],
+"education": [
+{"degree": "B.Tech Computer Science","institution": "JECRC","year": "2021-2025","cgpa": "8.71"}
+]
+}
