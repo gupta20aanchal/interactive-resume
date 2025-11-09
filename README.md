@@ -1,16 +1,60 @@
-# React + Vite
+# Interactive Resume – Frontend Take-Home Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a responsive, interactive resume website built using **React + Vite**.  
+The project includes a login screen with hardcoded credentials, a dynamic resume viewer, filters, search, and a print-to-PDF option.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✅ Login Credentials
 
-## React Compiler
+Use the following credentials to access the resume:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Email: intern@demo.com
+Password: pass123
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✅ Features
+
+### 🔐 Login System (Frontend Only)
+- Hardcoded email + password  
+- Client-side validation (email format, password length)  
+- Inline error messages  
+- Session stored in `localStorage`  
+- Logout functionality  
+
+### 📄 Interactive Resume
+- Resume loaded from a local `resume.json`  
+- Search bar for roles/companies/skills  
+- Skill filters (chips)  
+- Expand/collapse experience items  
+- View switcher: **Cards ↔ Table**  
+- Print/Download option using `window.print()`  
+
+### 📱 Responsive UI
+- Mobile-first layout  
+- Works on tablet & desktop  
+- Clean, simple styling  
+
+### ♿ Accessibility
+- Semantic HTML  
+- Keyboard-focus styles  
+- High contrast colors  
+- ARIA labels & roles  
+
+---
+
+## ✅ Tech Stack
+
+**Languages**
+- HTML  
+- CSS  
+- JavaScript (ES6)  
+- JSON  
+
+**Tools**
+- React  
+- React DOM  
+- Vite  
+
+---
